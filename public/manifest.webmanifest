@@ -1,0 +1,14 @@
+{
+  "name": "Bookworm Buddy",
+  "short_name": "Bookworm",
+  "description": "Track what you read, plan what's next, and keep a shopping list of books.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0b10",
+  "theme_color": "#7cc4ff",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

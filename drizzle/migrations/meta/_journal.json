@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790969206168,
+      "tag": "0000_book_catalog_work_edition_series",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791120296686,
+      "tag": "0001_server_rate_limits",
+      "breakpoints": true
+    }
+  ]
+}

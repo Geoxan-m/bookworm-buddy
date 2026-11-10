@@ -1,0 +1,2 @@
+ALTER TABLE public.user_books DROP CONSTRAINT IF EXISTS user_books_status_check;
+ALTER TABLE public.user_books ADD CONSTRAINT user_books_status_check CHECK (status = ANY (ARRAY['read'::text, 'want'::text, 'buy'::text, 'current'::text]));
